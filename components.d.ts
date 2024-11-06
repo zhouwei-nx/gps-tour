@@ -9,10 +9,10 @@ declare module 'vue' {
   export interface GlobalComponents {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    VanActionSheet: typeof import('vant/es')['ActionSheet']
+    VanButton: typeof import('vant/es')['Button']
+    VanCellGroup: typeof import('vant/es')['CellGroup']
     VanField: typeof import('vant/es')['Field']
-    VanImage: typeof import('vant/es')['Image']
-    VanSlider: typeof import('vant/es')['Slider']
-    VanUploader: typeof import('vant/es')['Uploader']
+    VanForm: typeof import('vant/es')['Form']
+    VanStepper: typeof import('vant/es')['Stepper']
   }
 }
